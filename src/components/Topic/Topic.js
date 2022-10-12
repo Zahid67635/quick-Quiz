@@ -8,7 +8,8 @@ const Topic = ({ topic }) => {
                 <img src={topic.logo} alt="" />
                 <div className='flex justify-between p-5'>
                     <h3 className='text-2xl font-bold'>{topic.name}</h3>
-                    <Link to={'/quizes'}><button className='w-36 h-10 bg-green-500 hover:bg-green-700 text-white font-bold rounded'>Start Quiz</button></Link>
+                    <h4 className='text-xl font-bold'>Total quiz: {topic.total}</h4>
+                    <Link to={`/quizes/${topic.id}`}><button className='w-36 h-10 bg-green-500 hover:bg-green-700 text-white font-bold rounded'>Start Quiz</button></Link>
                 </div>
             </div>
         </div>
