@@ -17,6 +17,11 @@ function App() {
         {
           path: '/home',
           element: <Home></Home>,
+
+        },
+        {
+          path: '/',
+          element: <Home></Home>,
         },
         {
           path: '/blog',
