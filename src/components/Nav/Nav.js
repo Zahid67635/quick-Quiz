@@ -115,7 +115,7 @@ export const Nav = () => {
                                     <div className="flex items-center justify-between mb-4">
                                         <div>
                                             <NavLink
-                                                href="/"
+                                                to="/"
                                                 aria-label="Company"
                                                 title="Company"
                                                 className="inline-flex items-center"
@@ -136,7 +136,7 @@ export const Nav = () => {
                                                     <rect x="14" y="11" width="7" height="12" />
                                                 </svg>
                                                 <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                                                    Company
+                                                    Quick-Quiz
                                                 </span>
                                             </NavLink>
                                         </div>
@@ -160,42 +160,42 @@ export const Nav = () => {
                                         <ul className="space-y-4">
                                             <li>
                                                 <NavLink
-                                                    href="/"
+                                                    to="/home"
                                                     aria-label="Our product"
                                                     title="Our product"
                                                     className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                                 >
-                                                    Product
+                                                    Home
                                                 </NavLink>
                                             </li>
                                             <li>
                                                 <NavLink
-                                                    href="/"
+                                                    to="/topics"
                                                     aria-label="Our product"
                                                     title="Our product"
                                                     className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                                 >
-                                                    Features
+                                                    Topics
                                                 </NavLink>
                                             </li>
                                             <li>
                                                 <NavLink
-                                                    href="/"
+                                                    to="/stats"
                                                     aria-label="Product pricing"
                                                     title="Product pricing"
                                                     className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                                 >
-                                                    Pricing
+                                                    Statistics
                                                 </NavLink>
                                             </li>
                                             <li>
                                                 <NavLink
-                                                    href="/"
+                                                    to="/blog"
                                                     aria-label="About us"
                                                     title="About us"
                                                     className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                                 >
-                                                    About us
+                                                    Blog
                                                 </NavLink>
                                             </li>
                                             <li>

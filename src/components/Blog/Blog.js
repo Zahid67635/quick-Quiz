@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div>
+        <div className='mb-14'>
             <div className='p-6'>
                 <h2 className='text-3xl'>
                     Q-1) What is the purpose of react router?
