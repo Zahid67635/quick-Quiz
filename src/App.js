@@ -17,11 +17,6 @@ function App() {
         {
           path: '/home',
           element: <Home></Home>,
-          children: [{
-            element: <Content></Content>
-          }
-          ]
-
         },
         {
           path: '/blog',
